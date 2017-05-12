@@ -1,5 +1,8 @@
 .idea/*
+build/*
+dist/*
 .idea_modules/
+MacroPy.egg-info/
 *.iml
 *.pyc
 *.swp

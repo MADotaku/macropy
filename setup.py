@@ -71,6 +71,8 @@ setup(
     author_email='haoyi.sg@gmail.com, justin.holmgren@gmail.com',
     url='https://github.com/lihaoyi/macropy',
     packages=find_packages(exclude=["*.test", "*.test.*"]),
+
+    install_requires=["six>=1.10.0"],
     extras_require = {
         'pyxl':  ["pyxl"],
         'pinq': ["SQLAlchemy"],
